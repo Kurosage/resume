@@ -1,0 +1,153 @@
+{
+  "links": {
+    "about": "Обо мне",
+    "education": "Образование",
+    "experience": "Опыт",
+    "skills": "Навыки",
+    "interests": "Хобби",
+    "projects": "Проекты"
+  },
+  "personalInfo": {
+    "name": "Камила",
+    "lastName": "Гильфанова",
+    "subHeadingText": [
+      "Программист",
+      "Фронтенд разработчик"
+    ],
+    "city": "Россия, Казань",
+    "phoneNumber": "+79872113756",
+    "email": "asuna35981@gmail.com",
+    "gmail": "",
+    "github": "https://github.com/Kurosage",
+    "myDescription": "Начинающий разработчик, закончила университет на направлении “09.03.04 Программная инженерия” ,  также обучаюсь в Школе 21 в течение 2 лет. Сейчас усиленно изучаю Frontend направление, также заканчиваю стажировку в отделе Сопровождения POS терминалов, где пишу на python скрипты для  автоматизации ручных процессов , приложения и Telegram ботов(*отдел в котором я стажируюсь не является отделом разработки, поэтому дальнейшего развития в отделе после стажировки не планирую)."
+  },
+  "educationDegrees": {
+    "title": "Образование",
+    "degrees": [
+      {
+        "collage": "КНИТУ-КАИ им.Туполева",
+        "name": "Прикладная математика и информатика",
+        "itemList": ["Программная инженерия"],
+        "startEndDate": "2019-2023"
+      },
+      {
+        "collage": "Школа 21",
+        "name": "https://21-school.ru/",
+        "itemList": ["Стандарный курс"],
+        "startEndDate": "2021-2023"
+      }
+    ]
+  },
+  "workExperiences": {
+    "title": "Опыт работы",
+    "works": [
+      {
+        "position": "Стажер",
+        "companie": "ПАО АкБарс Банк",
+        "responsabilities": [
+          "Стажировка в Отеделе Сопровождения POS терминалов",
+          "  Перепрошивка POS терминалов",
+          "  Написание телеграмм бота для просмотра и изменения заявок(Python:Aiogram,mySQL) "
+          
+        ],
+        "link": "https://github.com/Kurosage/bot_akb",
+        "linkText":"Ссылка на проект",
+        "startEndDate": "Апрель 2023 - Август 2023"
+      },
+      {
+        "position": "Фронтенд разработчик на Vue",
+        "companie": "NedvizhkaTop",
+        "responsabilities": [
+          "  Разработка сайта для оценки стоимости недвижимости:",
+          "  Vue, PrimeVue, BootstrapVue, Vite, TypeScript и работа с git",
+          "  Работа с ЯндексМетрикой для настройки мониторинга сайта"
+        ],
+        "link": "https://nedvizhka.top/",
+        "linkText":"Ссылка на компанию",
+        "startEndDate": "Июнь 2023 - Декабрь 2023"
+      },
+      {
+        "position": "Прикладной-лингвист",
+        "companie": "ПАО Совкомбанк",
+        "responsabilities": [
+          "Разработчик банковского чат-бота Катюша",
+          "  JavaScript,JustAI"
+        ],
+        "link": "https://sovcombank.ru/?utm_referrer=https%3A%2F%2Fwww.yandex.ru%2Fclck%2Fjsredir%3Ffrom%3Dyandex.ru%3Bsuggest%3Bbrowser%26text%3D",
+        "linkText":"Ссылка на компанию и чат-бот(справа внизу)",
+        "startEndDate": "Август 2023 - Настоящее время"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Навыки",
+    "iconsTitle": "Языки программирования и инструменты с которыми удалось поработать",
+    "devIcons": {
+      "JavaScript":"devicon-javascript-plain",
+      "HTML":"devicon-html5-plain-wordmark",
+      "CSS":"devicon-css3-plain-wordmark",
+      "git":"devicon-git-plain",
+      "NodeJS":"devicon-nodejs-plain",
+      "Bootstrap":"devicon-bootstrap-plain",
+      "Github":"devicon-github-original",
+      "JQuery":"devicon-jquery-plain-wordmark",
+      "React":"devicon-react-original",
+      "VisualStudio":"devicon-visualstudio-plain",
+      "VueJS":"devicon-vuejs-plain",
+      "Postgresql":"devicon-postgresql-plain",
+      "MongoDB":"devicon-mongodb-plain"
+    },
+    "devIconsText": [
+      "C#",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "git",
+      "NodeJS",
+      "Bootstrap",
+      "Github",
+      "JQuery",
+      "React",
+      "VisualStudio",
+      "VueJS",
+      "Postgresql",
+      "MySQL",
+      "MongoDB"
+    ]
+  },
+  "interests": {
+    "title": "Хобби",
+    "firstBlock": "Выучилась на фортепиано в мазыкальной школе (7 лет), также в университете 4 года занималась дзюдо и самбо",
+    "secondBlock": "Люблю играть в компьютерные игры."
+  },
+  "projects": {
+    "title": "Проекты",
+    "projectsInfo": [
+      {
+        "name": "Дипломная работа",
+        "description": "Дипломная работа на тему \"Разработка интерфейсной части информирования абитуриентов\". Разработка Telegram бота и сайта для абитуриентов КНИТУ-КАИ(React,Python:Aiogram)",
+        "image": "/images/bot1.png",
+        "siteUrl": "https://github.com/Kurosage/Diplomnaya_rabota"
+      },
+      
+      {
+        "name": "Telegram бот для АккБарс Банка",
+        "description": "Бот для автоматизации создания и редактирования заявок на ремонт от инженеров.(Python:Aiogram,PostgreSQL)",
+        "image": "/images/bot_akb.png",
+        "siteUrl": "https://github.com/Kurosage/bot_akb?tab=readme-ov-file"
+      },
+      {
+        "name": "Учебная верстка сайтов",
+        "description": "Репозиторий содержит сайты, которые мне удалось сверстать в ходе обучения.(JavaScript,CSS,HTML)",
+        "image": "/images/proj.png",
+        "siteUrl": "https://github.com/Kurosage/Easy_web_site"
+      },
+      {
+        "name": "НедвижкаТОП",
+        "description": "Проект стартапа специализирущегося на продаже недвижимости, разрабатывала один из модулей \"Агрегатор\" упрощенный аналог авито и циана, только вместе.(Vue:VuePrime,Vite,Bootstrap,git,TypeScript)",
+        "image": "/images/nedvizhka.png",
+        "siteUrl": "https://app.nedvizhka.top"
+      }
+    ]
+  }
+}

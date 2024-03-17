@@ -1,0 +1,153 @@
+{
+  "links": {
+    "about": "About",
+    "education": "Education",
+    "experience": "Experience",
+    "skills": "Skills",
+    "interests": "Hobby",
+    "projects": "Projects"
+  },
+  "personalInfo": {
+    "name": "Kamila",
+    "lastName": "Gilfanova",
+    "subHeadingText": [
+      "Programmer",
+      "Frontend Developer"
+    ],
+    "city": "Russia, Kazan",
+    "phoneNumber": "+79872113756",
+    "email": "asuna35981@gmail.com",
+    "gmail": "",
+    "github": "https://github.com/Kurosage",
+    "myDescription": "I am a novice developer, graduated from the university in the direction of “09.03.04 Software Engineering”, I have also been studying at School 21 for 2 years. Now I am intensively studying the Frontend direction, I am also completing an internship in the POS terminal Maintenance department, where I write scripts in python to automate manual processes, applications and Telegram bots (* the department in which I train is not a development department, so I do not plan further development in the department after the internship)."
+  },
+  "educationDegrees": {
+    "title": "Education",
+    "degrees": [
+      {
+        "collage": "Kazan National Research Technical University named after A.N.Tupolev(KNRTU-KAI)",
+        "name": "Applied Mathematics and Computer Science",
+        "itemList": ["Software Engineering"],
+        "startEndDate": "2019-2023"
+      },
+      {
+        "collage": "School 21",
+        "name": "https://21-school.ru/",
+        "itemList": ["Standard course"],
+        "startEndDate": "2021-2023"
+      }
+    ]
+  },
+  "workExperiences": {
+    "title": "Experience",
+    "works": [
+      {
+        "position": "Intern",
+        "companie": "Ak Bars Bank",
+        "responsabilities": [
+          "Internship in the POS Terminal Support Department",
+          "  Flashing POS terminals",
+          "  Writing  Telegram bot for viewing and changing applications (Python:Aiogram,mySQL)"
+          
+        ],
+        "link": "https://github.com/Kurosage/bot_akb",
+        "linkText":"Link to the project",
+        "startEndDate": "April 2023 - August 2023"
+      },
+      {
+        "position": "Frontend developer (Vue)",
+        "companie": "NedvizhkaTop",
+        "responsabilities": [
+          "  Development of a website for real estate valuation:",
+          "  Vue, PrimeVue, BootstrapVue, Vite, TypeScript и working with git",
+          "  Working with Yandex.Metrica to set up site monitoring"
+        ],
+        "link": "https://nedvizhka.top/",
+        "linkText":"Link to the company",
+        "startEndDate": "June 2023 - December 2023"
+      },
+      {
+        "position": "Applied Linguist",
+        "companie": "Sovcombank",
+        "responsabilities": [
+          "Developer of the Katyusha banking chatbot",
+          "  JavaScript,JustAI"
+        ],
+        "link": "https://sovcombank.ru/?utm_referrer=https%3A%2F%2Fwww.yandex.ru%2Fclck%2Fjsredir%3Ffrom%3Dyandex.ru%3Bsuggest%3Bbrowser%26text%3D",
+        "linkText":"Link to the company and chatbot (bottom right)",
+        "startEndDate": "August 2023 - Present time"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Skills",
+    "iconsTitle": "Programming languages and tools that we managed to work with",
+    "devIcons": {
+      "JavaScript":"devicon-javascript-plain",
+      "HTML":"devicon-html5-plain-wordmark",
+      "CSS":"devicon-css3-plain-wordmark",
+      "git":"devicon-git-plain",
+      "NodeJS":"devicon-nodejs-plain",
+      "Bootstrap":"devicon-bootstrap-plain",
+      "Github":"devicon-github-original",
+      "JQuery":"devicon-jquery-plain-wordmark",
+      "React":"devicon-react-original",
+      "VisualStudio":"devicon-visualstudio-plain",
+      "VueJS":"devicon-vuejs-plain",
+      "Postgresql":"devicon-postgresql-plain",
+      "MongoDB":"devicon-mongodb-plain"
+    },
+    "devIconsText": [
+      "C#",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "git",
+      "NodeJS",
+      "Bootstrap",
+      "Github",
+      "JQuery",
+      "React",
+      "VisualStudio",
+      "VueJS",
+      "Postgresql",
+      "MySQL",
+      "MongoDB"
+    ]
+  },
+  "interests": {
+    "title": "Hobby",
+    "firstBlock": "I studied piano at a music school (7 years old), and studied judo and sambo at the university for 4 years",
+    "secondBlock": "I like to play computer games."
+  },
+  "projects": {
+    "title": "Projects",
+    "projectsInfo": [
+      {
+        "name": "Graduate work",
+        "description": "Thesis on the topic \"Development of the interface part of informing applicants\". Development of a Telegram bot and a website for KNITU-KAI applicants.(React,Python:Aiogram)",
+        "image": "/images/bot1.png",
+        "siteUrl": "https://github.com/Kurosage/Diplomnaya_rabota"
+      },
+      
+      {
+        "name": "Telegram bot for Ak bars Bank",
+        "description": "A bot for automating the creation and editing of repair requests from engineers.(Python:Aiogram,PostgreSQL)",
+        "image": "/images/bot_akb.png",
+        "siteUrl": "https://github.com/Kurosage/bot_akb?tab=readme-ov-file"
+      },
+      {
+        "name": "Educational website layout",
+        "description": "The repository contains sites that I managed to make up during my training.(JavaScript,CSS,HTML)",
+        "image": "/images/proj.png",
+        "siteUrl": "https://github.com/Kurosage/Easy_web_site"
+      },
+      {
+        "name": "NedvizhkaTOP",
+        "description": "The project of a startup specializing in the sale of real estate, developed one of the modules \"Aggregator\" a simplified analogue of avito and cyane, only together.(Vue:VuePrime,Vite,Bootstrap,git,TypeScript)",
+        "image": "/images/nedvizhka.png",
+        "siteUrl": "https://app.nedvizhka.top"
+      }
+    ]
+  }
+}
